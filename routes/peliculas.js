@@ -18,3 +18,4 @@ router.delete('/:id', async (req, res) => {
 });
 
 module.exports = router;
+const verificarToken = require('../middlewares/auth');
